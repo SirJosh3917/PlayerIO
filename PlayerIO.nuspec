@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>PlayerIO</id>
+		<version>$version$</version>
+		<authors>SirJosh3917</authors>
+		<owners>SirJosh3917</owners>
+		<projectUrl>https://github.com/SirJosh3917/PlayerIO</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>PlayerIOClient on nuget, maintained by SirJosh3917 who is not affiliated with PlayerIO in any way, nor does SirJosh3917 claim ownership of this library.</description>
+		<tags>PlayerIO, PlayerIOClient</tags>
+	</metadata>
+	<files>
+		<file src="DotNet_Signed\PlayerIOClient.dll" target="lib\net40" />
+		<file src="DotNet\PlayerIOClient.xml" target="lib\net40" />
+		
+		<file src="DotNetCore_Signed\PlayerIOClient.dll" target="lib\netcoreapp2.1" />
+		<file src="DotNetCore\PlayerIOClient.xml" target="lib\netcoreapp2.1" />
+	</files>
+</package>
