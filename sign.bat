@@ -48,7 +48,6 @@ exit /b 0
 
 :ildasm <netver> <dllname>
 call ildasm /out=%~1_Signed\%~2.il %~1\%~2.dll
-echo.ildasm /out=%~1_Signed\%~2.il %~1\%~2.dll
 exit /b %ERRORLEVEL%
 
 :ilasm <key> <netver> <dllname>
